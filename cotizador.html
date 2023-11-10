@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cotizador</title>
+  <script src="script/script.js"></script>
+  <link rel="stylesheet" href="styles/stylescoti.css">
+</head>
+<body>
+  <header class="inicio">
+    <p><a href="index.html">Inicio</a></p>
+    <p><a href="capitales.html">Capitales</a></p>
+    <p><a href="cotizador.html">Cotizador</a></p>
+</header><br><br><br><br>
+  <div class="contenedor">
+    <h1>Cotizador de lavadoras:</h1>
+    <form id="formulario">
+      <h2>Marca: </h2>
+      <select id="pregunta1">
+        <option value="">Seleccione</option>
+        <option value="30000">Samsung</option>
+        <option value="25000">LG</option>
+        <option value="20000">Whirlpool</option>
+        <option value="3000">Bosch</option>
+        <option value="3000">Electrolux</option>
+        <option value="5000">Maytag</option>
+        <option value="6000">Miele</option>
+        <option value="5000">Kenmore</option>
+      </select><br>
+
+      <h2>Color:</h2>
+
+      <form>
+        <label>
+          <input type="radio" name="opcion" />
+          Gris
+        </label>
+    
+        <label>
+          <input type="radio" name="opcion" />
+          Blanco
+        </label>
+        <label>
+          <input type="radio" name="oprcion" />
+          Negro
+        </label>
+      </form>
+
+      <h2>Entrega: </h2>
+      <select id="pregunta3">
+        <option value="">Seleccione</option>
+        <option value="0">Tienda</option>
+        <option value="100">Domicilio</option>
+      </select><br>
+
+      <h2>Capacidad: </h2>
+      <select id="pregunta4">
+        <option value="">Seleccione</option>
+        <option value="2000">Pequeña(6kg)</option>
+        <option value="5000">Mediana(6-8kg)</option>
+        <option value="10000">Grande(9-12kg)</option>
+        <option value="40000">Muy grande(+12kg)</option>
+      </select><br>
+
+      <h2>Tina: </h2>
+      <select id="pregunta5">
+        <option value="">Seleccione</option>
+        <option value="1500">Acero inoxidable</option>
+        <option value="500">Plastico</option>
+        <option value="1000">Acero</option>
+      </select><br>
+
+      <h2>Mantenimiento: </h2>
+      <select id="pregunta6">
+        <option value="">Seleccione</option>
+        <option value="200">3Meses</option>
+        <option value="400">9Meses</option>
+        <option value="1000">12Meses</option>
+      </select><br>
+
+      <h2>Garantia: </h2>
+      <select id="pregunta7">
+        <option value="">Seleccione</option>
+        <option value="1000">6Meses</option>
+        <option value="1500">12Meses</option>
+        <option value="2000">18Meses</option>
+      </select><br>
+
+      <h2>Tipo de lavadora: </h2>
+      <div class="custom-select">
+        <select id="pregunta8">
+          <option value="">Seleccione</option>
+          <option value="2500">Automatica</option>
+          <option value="3500">Doble tina</option>
+          <option value="1000">Carga Frontal</option>
+          <option value="1000">Carga Superior</option>
+        </select>
+      </div><br>
+      <br>
+      <button type="button" onclick="calcularTotal()">Calcular Precio</button>
+    </form>
+  </div>
+</body>
+</html>
