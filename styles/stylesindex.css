@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #020b3e;
+}
+
+header {
+    background-color: #069BE7;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+header a:hover {
+    color: #003366; /* Cambia el color al pasar el mouse */
+}
+
+.contenedor {
+    text-align: center;
+    margin-top: 40px; /* Margen superior */
+    margin-right: 40px; /* Margen derecho */
+    margin-bottom: 40px; /* Margen inferior */
+    margin-left: 40px; /* Margen izquierdo */
+    background-color: #069BE7;
+}
+
+
+h1 {
+    color: #fff;
+    font-size: 24px; /* Tamaño de fuente ajustado */
+    margin: 0; /* Elimina el margen predeterminado del h1 */
+}

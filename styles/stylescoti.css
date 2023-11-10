@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #020b3e;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.contenedor {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #07575b;
+    border-radius: 10px;
+    background-color: #069BE7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #003366;
+    border-radius: 5px;
+    background-color: #003366;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+button {
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#resultado {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .contenedor {
+        width: 100%;
+    }
+
+    select, button {
+        width: calc(100% - 20px);
+    }
+}
+
+h2 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Estilo básico para los radio botones */
+  input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    outline: none;
+    margin-right: 5px;
+  }
+
+  input[type="radio"]:checked {
+    background-color: #fff; /* Cambia el color cuando está seleccionado */
+  }
+
+  label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  header {
+    background-color: #069BE7;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+header a:hover {
+    color: #003366; /* Cambia el color al pasar el mouse */
+}
+
+.contenedor {
+    text-align: center;
+    margin-top: 40px; /* Margen superior */
+    margin-right: 40px; /* Margen derecho */
+    margin-bottom: 40px; /* Margen inferior */
+    margin-left: 40px; /* Margen izquierdo */
+    background-color: #069BE7;
+}
+
+
+h1 {
+    color: #fff;
+    font-size: 24px; /* Tamaño de fuente ajustado */
+    margin: 0; /* Elimina el margen predeterminado del h1 */
+}
+header {
+    background-color: #069BE7;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+header a:hover {
+    color: #003366; /* Cambia el color al pasar el mouse */
+}
+
+.contenedor {
+    text-align: center;
+    margin-top: 40px; /* Margen superior */
+    margin-right: 40px; /* Margen derecho */
+    margin-bottom: 40px; /* Margen inferior */
+    margin-left: 40px; /* Margen izquierdo */
+    background-color: #069BE7;
+}
+
+
+h1 {
+    color: #fff;
+    font-size: 24px; /* Tamaño de fuente ajustado */
+    margin: 0; /* Elimina el margen predeterminado del h1 */
+}
